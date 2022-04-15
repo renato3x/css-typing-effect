@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 :root {
-  --bg: #cfdbd5;
-  --txt: #242423;
-  --cursor-color: #d62828;
+  --bg: #020202;
+  --txt: #ffba08;
+  --cursor-color: #ffffff;
 }
 
 html {
-  font-family: 'Ubuntu Mono', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
   font-size: 16px;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .typing .typing-content {
   color: var(--txt);
-  font-size: 5rem;
+  font-size: 2.5rem;
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
