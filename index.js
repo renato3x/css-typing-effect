@@ -17,7 +17,7 @@ async function startTyping(typing, typingContent, typingWidth, quantityToRemoveO
   typing.style.width = '0'
 
   let i = typingContent.textContent.length
-
+  
   blinkId = await type(typing, typingWidth, quantityToRemoveOfTyping, i, blinkId)
   blinkId = await unType(typing, typingWidth, quantityToRemoveOfTyping, i, blinkId)
 
